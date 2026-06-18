@@ -1,0 +1,8 @@
+{
+  "dataset_name": "ccdv/govreport-summarization",
+  "sample_count": 100,
+  "total_report_text_characters": 4763047,
+  "total_summary_characters": 325473,
+  "average_report_text_characters": 47630.47,
+  "average_summary_characters": 3254.73
+}

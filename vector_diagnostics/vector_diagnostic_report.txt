@@ -1,0 +1,31 @@
+PDF VECTOR DATABASE DIAGNOSTIC REPORT
+======================================================================
+
+Toplam FAISS vector sayısı: 4809
+Toplam metadata kaydı: 4809
+Toplam doküman sayısı: 100
+
+Chunk uzunluk istatistikleri:
+- Ortalama: 1185.54
+- Minimum: 4
+- Maksimum: 1200
+- Medyan: 1200.00
+
+Doküman başına ortalama chunk sayısı:
+- 48.09
+
+Test sorguları skor özeti:
+                                                    mean       max       min
+query                                                                       
+budget cost increase and project delay          0.462505  0.479457  0.446153
+energy consumption and solar power systems      0.590269  0.611324  0.558852
+government report recommendations and findings  0.563127  0.596930  0.544119
+public safety and emergency response            0.461955  0.476616  0.454653
+transportation planning and traffic congestion  0.310486  0.352479  0.288430
+
+======================================================================
+Notlar:
+- Skorlar normalize embedding + IndexFlatIP ile hesaplanmıştır.
+- Normalize embeddinglerde skor cosine similarity benzeri yorumlanabilir.
+- Çok düşük skorlar veri/model uyumsuzluğuna işaret edebilir.
+- Türkçe PDF için çok dilli embedding modeli daha iyi olabilir.
